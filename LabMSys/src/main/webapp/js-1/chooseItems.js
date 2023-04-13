@@ -90,6 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const finishBtn = document.getElementById('finishBook');
     finishBtn.addEventListener('click', () => {
         // Redirect user to homepage
-        window.location.href = "Logout";
+        window.location.href = "../general.jsp";
     });
 });

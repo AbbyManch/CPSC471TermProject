@@ -23,7 +23,7 @@ javax.servlet.http.HttpSession"
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css-1/general.css">
+    <link rel="stylesheet" href="css-1/createBooking.css">
     </head>
 <body>
 <header>
@@ -31,10 +31,7 @@ javax.servlet.http.HttpSession"
         <h1> LMS </h1>
         <h4> - General </h2>
     </div>
-    <button id="menu-button"><img src="../images/hamburger_icon.png" alt="Menu"></button>
-    <nav id="menu-container">
-        <!-- Add Nav? -->
-    </nav>
+
 </header>
 <main>
         <form method = "post" class="form form--hidden" action ="createBooking" id="createAccount">
@@ -42,6 +39,8 @@ javax.servlet.http.HttpSession"
             <div class="form__message form__message--error"></div>
         <section>
             <h2 class="form__title">Available Times</h2>
+			<div style="height: 200px; overflow: auto">
+			<div style="overflow-x:auto;">
             <table>
               <thead>
                 <tr>
@@ -78,6 +77,8 @@ javax.servlet.http.HttpSession"
               %>
               </tbody>
             </table>
+			</div>
+			</div>
         </section>
             <!--Email and Password Containers-->
 

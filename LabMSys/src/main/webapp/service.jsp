@@ -30,16 +30,13 @@ javax.servlet.http.HttpSession"
             <h1> LMS </h1>
             <h4> - Service </h2>
         </div>
-        <button id="menu-button"><img src="../images/hamburger_icon.png" alt="Menu"></button>
-        <nav id="menu-container">
-            <ul>
-                <li><a href="#top">Home</a></li>
-            </ul>
-        </nav>
+
     </header>
     <main>
         <section>
             <h2 class="form__title">Current Service Requests</h2>
+            <div style="height: 200px; overflow: auto">
+            <div style="overflow-x:auto;">
             <table>
               <thead>
                 <tr>
@@ -70,6 +67,8 @@ javax.servlet.http.HttpSession"
               
               %>
             </table>
+            </div>
+            </div>
         </section> 
         
         <section>

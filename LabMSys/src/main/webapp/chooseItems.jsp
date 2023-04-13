@@ -31,10 +31,7 @@ javax.servlet.http.HttpSession"
         <h1> LMS </h1>
         <h4> - General </h2>
     </div>
-    <button id="menu-button"><img src="../images/hamburger_icon.png" alt="Menu"></button>
-    <nav id="menu-container">
-        <!-- Add Nav? -->
-    </nav>
+
 </header>
 <main>
     <section>
@@ -167,7 +164,7 @@ javax.servlet.http.HttpSession"
     </form>
 
     <section>
-        <button class="form__button" type="submit" id="finishBook" formaction ="general.jsp">Complete Booking</button>
+        <button class="form__button" type="submit" id="finishBook">Complete Booking</button>
     </section>
 
     <!--Back to Booking Link-->

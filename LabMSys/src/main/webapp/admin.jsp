@@ -15,12 +15,7 @@
         <h1> LMS </h1>
         <h4> - Admin </h2>
     </div>
-    <button id="menu-button"><img src="../images/hamburger_icon.png" alt="Menu"></button>
-    <nav id="menu-container">
-        <ul>
-            <li><a href="#top">Home</a></li>
-        </ul>
-    </nav>
+
 </header>
 <main>
     <section>

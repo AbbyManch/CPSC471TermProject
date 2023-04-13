@@ -267,10 +267,16 @@ section:not(:last-child) {
 
 table {
     width: 100%;
-    margin: auto;
+    margin: 10px auto 30px auto;
     border: 1.5px solid;
     border-color: var(--color-primary);
     border-collapse: collapse;
+    max-height: 250px;
+}
+
+thead {
+    background-color: #d8d8d8;
+    border-bottom: 1.5px solid var(--color-primary);
 }
   
 td, th {
@@ -278,5 +284,22 @@ td, th {
     border-color: var(--color-secondary);
     padding: 10px;
     text-align: center;
+}
 
+label {
+    display: block;
+}
+  
+select {
+    position: relative;
+    top: 5px;
+    width: 100%;
+    padding: 0.8rem 0.6rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    margin-bottom: 10px;
 }

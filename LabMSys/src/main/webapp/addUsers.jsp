@@ -15,10 +15,7 @@
         <h1> LMS </h1>
         <h4> - Admin </h2>
     </div>
-    <button id="menu-button"><img src="../images/hamburger_icon.png" alt="Menu"></button>
-    <nav id="menu-container">
-        <!-- Add Nav? -->
-    </nav>
+
 </header>
 <main>
         <form method = "post" class="form form--hidden" action ="adminAddUsers" id="createAccount">

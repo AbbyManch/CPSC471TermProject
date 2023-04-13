@@ -30,15 +30,13 @@ javax.servlet.http.HttpSession"
         <h1> LMS </h1>
         <h4> - Admin </h2>
     </div>
-    <button id="menu-button"><img src="../images/hamburger_icon.png" alt="Menu"></button>
-    <nav id="menu-container">
-        <!-- Add Nav? -->
-    </nav>
+
 </header>
 <main>
-    <h2 class="form__title">All Labs</h1>
-
     <section>
+    <h2 class="form__title">All Labs</h1>
+        <div style="height: 200px; overflow: auto">
+        <div style="overflow-x:auto;">
         <table>
             <thead>
               <tr>
@@ -76,6 +74,8 @@ javax.servlet.http.HttpSession"
               </tr>
             </tbody>
           </table>
+          </div>
+          </div>
     </section>
 
     <!--Back to Homepage Link-->
