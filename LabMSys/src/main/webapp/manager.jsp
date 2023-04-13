@@ -86,9 +86,31 @@ javax.servlet.http.HttpSession"
                 <button class="form__button" type="submit" formaction ="modifyInventory.jsp">Manage Lab Inventory</button>
             </form>
         </section>
+
         <section>
             <form>
-                <button class="form__button" type="submit">Change Lab Availability</button>
+                <button class="form__button" type="submit" formaction="addBooking.jsp">Add Lab Booking</button>
+            </form>
+        </section>
+
+        <section>
+            <h2 class="form__title">Delete Booking</h2>
+            <form id="deleteBooking">
+                    <div class="form__input-group">
+                    <input type="text" id="bookingID" class="form__input" placeholder="Booking ID">
+                    <div class="form__input-error-message"></div>
+                    </div>
+
+                    <div class="form__input-group">
+                    <input type="text" id="labID" class="form__input" placeholder="Lab ID">
+                    <div class="form__input-error-message"></div>
+                    </div>
+        
+                    <div class="form__input-group">
+                    <input type="text" id="confirmMessage" class="form__input" placeholder="Type 'Confirm' To Delete">
+                    <div class="form__input-error-message"></div>
+                    </div>
+                <button class="form__button-delete" type="submit">Delete</button>
             </form>
         </section>
 
