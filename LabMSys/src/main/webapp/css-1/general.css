@@ -265,6 +265,72 @@ section:not(:last-child) {
     transform: scale(0.98);
 }
 
+.form__button-create {
+    width: 100%;
+    padding: 1rem 2rem;
+    font: 500 1.4rem 'Quicksand', sans-serif;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.form__button-create:hover {
+    background: var(--color-primary-dark);
+}
+
+.form__button-create:active {
+    transform: scale(0.98);
+}
+
+.form__button-delete {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    font: 500 1rem 'Quicksand', sans-serif;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: #ce2525;
+    margin-bottom: 30px;
+}
+
+.form__button-delete:hover {
+    background: #a92121;
+}
+
+.form__button-delete:active {
+    transform: scale(0.98);
+}
+
+.form__button-service {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    font: 500 1rem 'Quicksand', sans-serif;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+    margin-bottom: 30px;
+}
+
+.form__button-service:hover {
+    background: var(--color-primary-dark);
+}
+
+.form__button-service:active {
+    transform: scale(0.98);
+}
+
 table {
     width: 100%;
     margin: 10px auto 30px auto;
